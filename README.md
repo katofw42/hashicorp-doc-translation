@@ -75,12 +75,12 @@
     npm start
     ```
 
-5.  スクリプトが完了すると、プロジェクトルートの `markdown_output` ディレクトリ内に以下の構造でファイルが保存されます。
+5.  スクリプトが完了すると、プロジェクトルートの `markdown_output` ディレクトリ内に以下の構造でファイルが保存されます。ファイル名から冗長な接頭語は削除されます。
     ```
     markdown_output/
-    ├── [URLベースのファイル名]_ja.md       # 日本語翻訳済みMarkdown
+    ├── [パス]-[ファイル名]_ja.md       # 日本語翻訳済みMarkdown
     └── original/
-        └── [URLベースのファイル名]_original.md # 原文（英語）Markdown
+        └── [パス]-[ファイル名]_original.md # 原文（英語）Markdown
     ```
 
 ## プロジェクト構造

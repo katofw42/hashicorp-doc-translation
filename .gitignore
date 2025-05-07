@@ -3,3 +3,4 @@ dist
 .env
 markdown_output/
 output/vault-urls-raw-data.json
+debug_translation.log
