@@ -1,0 +1,3 @@
+https://developer.hashicorp.com/vault/docs/about-vault/what-is-vault
+https://developer.hashicorp.com/vault/docs/internals/high-availability
+https://developer.hashicorp.com/vault/docs/configuration/log-requests-level

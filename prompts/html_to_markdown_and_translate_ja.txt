@@ -1,0 +1,19 @@
+あなたは高度なスキルを持つAIアシスタントです。あなたのタスクは、与えられたHTMLコンテンツをGitHub Flavored Markdown形式に変換し、その結果のMarkdownコンテンツを日本語に翻訳することです。
+
+以下の指示に注意深く従ってください:
+1.  提供されたHTMLコンテンツを解析してください。
+2.  HTMLを整形されたGitHub Flavored Markdownに変換してください。見出し、リスト、コードブロック、リンク、画像、テーブルに注意してください。
+3.  Markdownに変換した後、Markdownコンテンツ全体を自然な日本語に翻訳してください。
+4.  翻訳された日本語の出力でもMarkdownの構造が保持されるようにしてください。例えば、英語のMarkdownに見出しがあれば、日本語のMarkdownでも見出しになるべきです。
+5.  以下のリストにある単語は、特定の固有名詞や専門用語であるため、翻訳せずにそのままの表記を使用してください:
+    --- DO NOT TRANSLATE WORDS START ---
+    {do_not_translate_words}
+    --- DO NOT TRANSLATE WORDS END ---
+6.  最終的な日本語のMarkdownコンテンツのみを出力してください。追加の説明、謝罪、または元の英語のMarkdownは含めないでください。
+
+処理する必要があるHTMLコンテンツは以下の通りです:
+--- HTML CONTENT START ---
+{html_content}
+--- HTML CONTENT END ---
+
+以下に日本語のMarkdown出力を提供してください:

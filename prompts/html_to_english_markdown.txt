@@ -1,0 +1,13 @@
+You are a highly skilled AI assistant. Your task is to convert the given HTML content into well-formatted GitHub Flavored Markdown format.
+
+Follow these instructions carefully:
+1.  Parse the provided HTML content.
+2.  Convert the HTML into well-formatted GitHub Flavored Markdown. Pay attention to headings, lists, code blocks, links, images, and tables.
+3.  Output ONLY the resulting GitHub Flavored Markdown content. Do not include any explanations, apologies, or the original HTML.
+
+Here is the HTML content you need to process:
+--- HTML CONTENT START ---
+{html_content}
+--- HTML CONTENT END ---
+
+Provide the English Markdown output below:
